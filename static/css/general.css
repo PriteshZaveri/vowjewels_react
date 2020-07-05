@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.row {
+  margin: 0px -15px;
+}
+
+.col {
+  padding: 15px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -4px;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-6 {
+  width: 50%;
+}

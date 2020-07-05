@@ -1,0 +1,85 @@
+.header {
+  background-color: #001133;
+  box-shadow: 0px 10px 20px #9f9f9f;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.header .logo-wrap {
+  width: 130px;
+  height: auto;
+  display: block;
+  margin-right: -4px;
+}
+
+.logo-wrap img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.header .nav-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .nav-wrap .nav-link {
+  flex: 1;
+  color: #d4af37;
+  text-align: center;
+  padding: 57px 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  transition: 0.5s ease;
+}
+
+.header .nav-wrap .nav-link:hover {
+  background-color: #ececec;
+  color: #001133;
+}
+
+.header .nav-wrap .nav-link:hover .nav-hidden-wrap {
+  opacity: 1;
+  visibility: visible;
+  box-shadow: 0px 10px 15px #bdbdbd;
+}
+
+.header .nav-hidden-wrap {
+  position: absolute;
+  top: 133px;
+  left: 0px;
+  width: 100%;
+  background: #ececec;
+  text-align: center;
+  padding: 25px 0px 40px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  visibility: hidden;
+}
+
+.header .nav-hidden-wrap .nav-cat-title {
+  color: #001133;
+  font-weight: 600;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #d4af37;
+  display: inline-block;
+  padding: 10px 10px 20px 25px;
+}
+
+.header .nav-hidden-wrap ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .nav-hidden-wrap ul li a {
+  display: flex;
+  color: #001133;
+  font-weight: 400;
+  text-decoration: none;
+}
